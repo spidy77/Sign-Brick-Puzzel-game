@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brick Classic Game - Orange Theme</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="logo">
+    <img src="logo.png" alt="logo">
+  </div>
+  <div class="container">
+    <canvas id="gameCanvas" width="354" height="450"></canvas>
+    <div class="controls">
+      <button onclick="pauseGame()">Start</button>
+      <button onclick="restartGame()">Restart</button>
+      <!-- <button onclick="showScore()">Score</button> -->
+    </div>
+  </div>
+
+  <!-- Mobile controls -->
+  <div class="mobile-controls">
+    <button id="leftBtn">←</button>
+    <button id="rightBtn">→</button>
+    <button id="downBtn">↓</button>
+  </div>
+
+  <div id="gameOver">Game Over</div>
+  <div id="scoreDisplay">Score: 0</div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
