@@ -17,7 +17,7 @@ let blockImages = [];
 function loadBlockImages() {
     for (let i = 1; i <= 10; i++) {
         const img = new Image();
-        img.src = `images/block_image_${i}.jpeg`;
+        img.src = `block_image_${i}.jpeg`;
         blockImages.push(img);
     }
 }
